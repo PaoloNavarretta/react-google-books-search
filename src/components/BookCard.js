@@ -2,12 +2,11 @@ import React from "react";
 
 const BookCard = props => {
   return (
-    <div className="card-container">
-      <img src={props.image} alt="cover" />
-      <div className="desc">
-        <h2>{props.title}</h2>
-        <h3>Author: {props.author}</h3>
-        <p>
+    <div className="book">
+      <div className="book__text">
+        <h5 className="book__title">{props.title}</h5>
+        <p className="book__author">Author: {props.author}</p>
+        <p className="book__date">
           Published Date:{" "}
           {props.published === "0000"
             ? "Not Available"

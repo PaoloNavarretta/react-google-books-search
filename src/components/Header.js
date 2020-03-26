@@ -3,8 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <i className="fas fa-book fa-2x"></i>
-      <h1>Book Cards</h1>
+      <h1>Google API Book Search</h1>
     </header>
   );
 };
