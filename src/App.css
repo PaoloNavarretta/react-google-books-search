@@ -35,11 +35,9 @@ header h1 {
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  width: 80%;
-  margin: 1rem auto;
-  padding: 2rem 1rem;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  padding: 3rem 2rem;
 }
 
 .form-search {
@@ -100,10 +98,12 @@ select {
 .book__text {
   text-align: center;
   padding: 1.5rem 2rem;
+  color: #2b303b;
 }
 
 .book__title {
-  font-size: 20px;
+  font-size: 18px;
+  padding-bottom: 1rem;
 }
 
 .book__author {
