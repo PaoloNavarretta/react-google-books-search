@@ -1,3 +1,10 @@
+## React Google API Book Search
+
+A Simple Book search project that I've made in React with the Google Book API.
+I've followed this tutorial and added some new features/styling:
+
+https://www.youtube.com/watch?v=6sBqMyUOcl8
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
